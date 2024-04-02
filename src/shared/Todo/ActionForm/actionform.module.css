@@ -1,0 +1,37 @@
+.form {
+    margin: 25px 0;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; */
+}
+
+.input {
+    width: 370px;
+    height: 55px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    background: var(--lightGrey);   
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17px;    
+}
+
+.input::placeholder {
+    color: var(--lightBlack);
+}
+
+.button {
+    display: block;
+    height: 55px;
+    padding: 15px 50px;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--lightGreen);  
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;       
+}

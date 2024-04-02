@@ -1,0 +1,48 @@
+.menu {
+    position: absolute;
+    top: 40px;
+    right: -74px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    z-index: 10;
+}
+
+.menu::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 50%;
+    width: 8px;
+    height: 8px;
+    border-left: 1px solid var(--grey);
+    border-top: 1px solid var(--grey);
+    transform: rotate(45deg);
+    z-index: 10;
+    background-color: var(--white);
+}
+
+.listItem{
+    transition: background-color 0.3s ease;
+}
+
+.listItem:hover {
+    background-color: var(--lightGrey);
+}
+
+.button {
+    padding: 9px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.itemText {
+    padding-left: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 106%;
+    color: var(--lightBlack);    
+}
+

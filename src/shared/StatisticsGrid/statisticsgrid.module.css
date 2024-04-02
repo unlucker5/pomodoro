@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 260px 180px 180px;
+    gap: 32px;
+    grid-template-areas:
+    "date date date graph graph graph graph graph graph graph graph graph"
+    "pomodoroCount pomodoroCount pomodoroCount graph graph graph graph graph graph graph graph graph"
+    "focus focus focus focus time time time time stops stops stops stops"
+    ;
+}
+
+.gridDate {
+    grid-area: date;
+}
+
+.gridFocus {
+    grid-area: focus;
+}
+
+.gridGraph {
+    grid-area: graph;
+}
+
+.gridPomodoroCount {
+    grid-area: pomodoroCount;
+}
+
+.gridTime {
+    grid-area: time;
+}
+
+.gridStops {
+    grid-area: stops;
+}

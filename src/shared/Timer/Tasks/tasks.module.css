@@ -1,0 +1,11 @@
+.wrapper {
+    margin-top: -9px;
+    margin-bottom: 32px;
+}
+
+.wrapper > * {
+    font-weight: 400;
+}
+.taskOrder {
+    color: var(--lightBlack);
+}

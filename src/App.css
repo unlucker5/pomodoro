@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
+
+:root {
+  --lightGreen: #A8B64F;
+  --darkGreen: #899441;
+  --red: #DC3E22;
+  --white: #FFFFFF;
+  --black: #333333;
+  --lightBlack: #999999;
+  --grey: #C4C4C4;
+  --lightGrey: #F4F4F4;
+  --lightGrey2: #E4E4E4;
+  --peach: #FFDDA9;
+  --lilac: #DFDCFE;
+  --aqua: #C5F1FF;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  font-family: 'SF UI Display', sans-serif;
+}
+
+* {
+  color: var(--black);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul, menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+h1,h2,h3,h4 {
+  margin: 0;
+}
+
+input {
+  padding: 0;
+  border: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-green{
+  transition: background-color 0.3s ease;
+}
+
+.btn-green:hover {
+  background-color: var(--darkGreen);
+}
+
+.btn-red{
+  transition: all 0.3s ease;
+}
+
+.btn-red:hover {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+
+/* графики */
+.css-12aivs3-MuiBarElement-root:hover {
+ fill: #EE735D;
+}

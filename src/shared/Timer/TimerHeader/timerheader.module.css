@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.wrapper > * {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.task {
+    font-weight: 700;
+}
+

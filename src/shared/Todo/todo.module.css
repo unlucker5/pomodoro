@@ -1,0 +1,11 @@
+.wrapper {
+    width: 41%;
+}
+
+.header {
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;     
+}

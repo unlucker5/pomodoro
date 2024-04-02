@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+}
+
+.clock {
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;    
+}
+
+.button {
+    position: absolute;
+    top: 60px;
+    right: -65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--grey);
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
