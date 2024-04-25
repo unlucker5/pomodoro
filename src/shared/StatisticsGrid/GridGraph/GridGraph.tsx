@@ -11,12 +11,14 @@ import { selectDayIndex, updateDayTime, updateDays } from '../../../store/totalS
 
 
 export function GridGraph() {
-  const today = useSelector((state: RootState) => state.todayStatistics.todayShort);
-  const fullToday = useSelector((state: RootState) => state.todayStatistics.todayLong);
-  const todayTotaltime = useSelector((state: RootState) => state.todayStatistics.totalTime);
-  const todayTotalPomodoro = useSelector((state: RootState) => state.todayStatistics.totalPomodoro);
-  const todayTimeOnPause = useSelector((state: RootState) => state.todayStatistics.timeOnPause)
-  const todayStops = useSelector((state: RootState) => state.todayStatistics.stops)
+const {
+    stops: todayStops,
+    timeOnPause: todayTimeOnPause,
+    totalPomodoro: todayTotalPomodoro,
+    totalTime: todayTotaltime,
+    todayLong: fullToday,
+    todayShort: today
+  } = useSelector((state: RootState) => state.todayStatistics)
   const days = useSelector((state: RootState) => state.totalStatistics.days);
 
   const formatedToday = today.charAt(0).toUpperCase() + today.slice(1);
