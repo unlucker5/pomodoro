@@ -1,4 +1,4 @@
-https://unlucker5.github.io/
+https://unlucker5.github.io/pomodoro
 
 ### `О проекте` ⏲️🍅
 
